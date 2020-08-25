@@ -1,3 +1,5 @@
+
+
 /*quitar los border a la imágenes cuanto son hipervínculos*/
 img{ border:0; }
 
@@ -13,13 +15,21 @@ img{ border:0; }
 h1{	font-size: 2.0em; }
 h2{	font-size: 1.5em; }
 
+a{
+	color: #1FAD6E;
+}
 
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
 /*Contenedor principal*/
 #container {
 	margin: 0 auto;
 	max-width: 1024px;
 	border: 1px solid #000;
 }
+
 /*********************************/
 /*Encabezado*/
 #header {
